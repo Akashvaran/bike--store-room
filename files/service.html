@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* .container {
+      padding-top: 100px;
+      background: #e5e5e5;
+      height: 900px;
+      width: 900px;
+
+    } */
+
+    .container img {
+      padding-top: 20px;
+      height: 300px;
+      width: 280px;
+      align-items: center;
+    }
+    .card:hover {
+    background-color: #ffffff;
+    color: white;
+    }
+
+    .card {
+
+
+      /* box-shadow: 15px 20px 20px rgba(255, 252, 252, 0.3),
+      inset 4px 4px 25px white; */
+      width: 350px;
+      height: 500px;
+      border-radius: 20px !important;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(#ffffff 50%, #0000009d 50%);
+
+
+    }
+    .work {
+      /* font-size: 23px; */
+      color: white;
+      text-align: center;
+
+    }
+
+
+  </style>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="service.css">
+</head>
+
+<body>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black fw-bold fixed-top p-0 m-0">
+    <a class="navbar-brand" href="#">
+      <h2>ROYAL ENFIELD</h2>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb- mb-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link active p-4" aria-current="page" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active p-4" href="about.html">ABOUT</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link active p-4" href="service.html">
+            SERVICE
+          </a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active p-4 " href="contuct.html">CONTACT</a>
+        </li>
+
+
+      </ul>
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-3">
+        <li class="nav-but bg-black">
+          <a class="btn btn-outline-light" href="log.html">LOGOUT</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+
+  <!-- 
+  <form class="containerak mx-auto">
+    <p class="heading">EMI OPTION</p>
+    <div class="input-containerak">
+        <label for="amount">Loan Amount(₹)</label>
+        <h4>300000</h4>           
+    </div>
+    <div class="input-containerak">
+        <label for="interest">Interest Rate(%)</label>
+       <h4>5%</h4>            
+    </div>
+    <div class="input-containerak loan-tenure-container text-center">
+        <label for="loanTenure">Loan Duration</label>
+             
+        <div class="radio-containerak">            
+            
+        </div>
+    </div>
+    
+    
+    <div class="output">
+        <p >Weekly Loan                            <span id="emi"         >₹</span></p>
+        <p >Total Interest Payable             <span id="totalInterest"    >₹</span></p>
+        <p >Total Payment(Principal + Interest)<span id="totalPayment">₹</span> </p>
+        
+    </div>
+</form> -->
+
+
+<section>
+  <div class="row">
+    <h2 class="section-heading">Our Services</h2>
+  </div>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <div class="icon-wrapper">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <h3>Life Insurance</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+          consequatur necessitatibus eaque.
+        </p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="icon-wrapper">
+          <i class="fas fa-brush"></i>
+        </div>
+        <h3>Service Heading</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+          consequatur necessitatibus eaque.
+        </p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="icon-wrapper">
+          <i class="fas fa-wrench"></i>
+        </div>
+        <h3>Service Heading</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+          consequatur necessitatibus eaque.
+        </p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="icon-wrapper">
+          <i class="fas fa-truck-pickup"></i>
+        </div>
+        <h3>Service Heading</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+          consequatur necessitatibus eaque.
+        </p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="icon-wrapper">
+          <i class="fas fa-broom"></i>
+        </div>
+        <h3>Service Heading</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+          consequatur necessitatibus eaque.
+        </p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="icon-wrapper">
+          <i class="fas fa-plug"></i>
+        </div>
+        <h3>Service Heading</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+          consequatur necessitatibus eaque.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <div class="container m5">
+    <h1 class="text-center my-5">Buy One Get One</h1>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-12  p-3">
+
+        <div class="card">
+          <img src="/asset/about 1.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h4 class="card-title">Face Mask</h4>
+            <a href="#" class="btn btn-primary">buy now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-12  p-3">
+
+        <div class="card">
+          <img src="/asset/about 2.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h4 class="card-title"> Scratch UV</h4>
+            <a href="#" class="btn btn-primary">buy now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 p-3">
+
+        <div class="card">
+          <img src="/asset/about 4.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h4 class="card-title">Gloves</h4>
+            <a href="#" class="btn btn-primary">buy now</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="col-lg-4 col-md-4 col-12 p-3">
+
+        <div class="card">
+          <img src="/asset/about 5.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h4 class="card-title">Back</h4>
+            <a href="#" class="btn btn-primary">buy now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 p-3">
+
+        <div class="card">
+          <img src="/asset/about 9.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h4 class="card-title">Shoes</h4>
+            <a href="#" class="btn btn-primary">buy now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 p-3">
+
+        <div class="card">
+          <img src="/asset/view1.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h4 class="card-title">tripper Rider Jacket</h4>
+            <a href="#" class="btn btn-primary">buy now</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <div class="col-lg-4 col-md-4 col-12 p-3">
+
+        <div class="card">
+          <img src="/asset/about4.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h4 class="card-title">Card title</h4>
+            <a href="#" class="btn btn-primary">buy now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 p-3">
+
+        <div class="card">
+          <img src="/asset/about6.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h4 class="card-title">Jacket </h4>
+            <a href="#" class="btn btn-primary">buy now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 p-3">
+
+        <div class="card">
+          <img src="/asset/about 10.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body text-center">
+            <h4 class="card-title">Helmet</h4>
+            <a href="#" class="btn btn-primary">buy now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+  </script>
+ </section>
+
+
+
+ <div class="work">
+  <div class="container text-center p-3 bg-black ">
+    <div class="row">
+      <div class="col-12" style="text-align: center;">
+        <p>Copyright © 2016-2024 ,Company,Health Insuranc,Bike Insurance,Travel Insurance @ akash</p>
+      </div>
+    </div>
+    <div class="row align-items-start p-4">
+      <div class="col ">
+
+        <p style="font-weight: bold; ">Dream bike</p>
+        Company
+        About us
+        Board of directors
+        Careers
+        Media kit
+        All resources
+        Articles
+        Ackology - The tech blog
+        Partnerships
+        Sitemap
+
+      </div>
+      <div class="col">
+        <p style="font-weight: bold;">Get assistance</p>
+        Help & Contact<br />
+        Facebook<br />
+        Instagram<br />
+        Twitter<br />
+        Linkedin<br />
+      </div>
+      <div class="col">
+        <p style="font-weight: bold;"> Company</p>
+        Products
+        Motor Insurance
+        Car Insurance
+        Bike Insurance
+        Health Insurance
+        Travel Insurance
+        International Travel Insurance
+        Life Insurance
+        Term Insurance
+        Group Health Insurance
+
+      </div>
+    </div>
+    <br><br><br>
+
+  </div>
+</div>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="service.js"></script>
+</body>
+
+</html>

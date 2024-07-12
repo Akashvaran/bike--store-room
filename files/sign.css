@@ -1,0 +1,106 @@
+
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container{
+            position: relative;
+            height: 500px ;
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid;
+            box-shadow: 0 0 8px 3px rgb(77, 75, 75);
+            /* background-color: rgb(185, 221, 221); */
+        }
+        
+
+ h1{
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+
+} 
+
+.from{
+    position: relative; 
+    margin: 25px 0px;
+
+
+}
+.from label{
+    
+    top: -20px;
+    font-size: 20px;
+    color: black;
+
+}
+.from input{
+    display: flex;
+    height: 40px;
+    width: 350px;
+    border-radius: 25px;
+    border: 4px solid;
+}
+.from ::placeholder{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.forget a{
+    font-size: 22px;
+     /* margin-bottom: 40px; */
+     height: 30px ;
+    text-decoration: none;
+     padding: 10px; 
+    
+    
+    
+    
+}
+.forget a:hover {
+    text-decoration: underline;
+
+}
+
+
+
+ button{
+    width: 350px;
+    height: 35px;
+    border-radius: 40px;
+    border: 4px solid;
+    font-size: 25px;
+
+}
+button{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input{
+    font-size: 20px;
+    padding-left: 8px;
+}
+.from.error p{
+    color: red;
+    
+}  
+.from.success input {
+    border-color: lawngreen;
+}
+.from.error input {
+    border-color: red;
+}
